@@ -18,7 +18,7 @@ app.use((err, req, res, next) => {
 });
 
 // Database connection
-mongoose.connect('mongodb://localhost:27017/swio-assignment', {
+mongoose.connect('mongodb+srv://jyothibhonagiri01:9jJRIKr09wcLqnEy@cluster0.vp2tnko.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => {
